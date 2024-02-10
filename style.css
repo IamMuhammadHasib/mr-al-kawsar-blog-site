@@ -2,6 +2,7 @@
 
 * {
     font-family: Roboto;
+    text-decoration: none;
 }
 
 body{
@@ -23,7 +24,7 @@ body{
 }
 
 .grid-item{
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 header{
@@ -54,6 +55,7 @@ button{
     border-radius: 6px;
     font-weight: 800;
     font-size: large;
+    cursor: pointer;
 }
 
 header button{
@@ -63,6 +65,7 @@ header button{
 
 .hero-section{
     display: flex;
+    row-gap: 30px;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
@@ -75,6 +78,7 @@ header button{
 .title .heading{
     font-size: 64px;
     font-weight: 900;
+    margin: 10px 0;
 }
 
 .title .sub-heading{
@@ -84,6 +88,7 @@ header button{
 
 .title button{
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .title .cta{
@@ -91,22 +96,90 @@ header button{
     color: white;
 }
 
-.profile img{
-    width: 200px;
+.profile .profile-image{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
     border-radius: 50%;
+    border: 2px solid black;
+    filter: drop-shadow(30px 20px black)
 }
 
 
 .post-cards{
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 10px;
     background-color: aliceblue;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-right: 30px;
 }
 
 .post-cards img{
     width: 300px;
-    height: 270px;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
+    margin-right: 25px;
+}
+
+.card-summary{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 25px;
+    align-items: baseline;
+}
+
+.tag-button{
+    padding: 6px 16px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 6px;
+    border: none;
+    font-weight: 400;
+    font-size: medium;
+    margin-bottom: 15px;
+}
+
+.card-summary a{
+    font-size: 24px;
+    max-width: 350px;
+    font-weight: 800;
+}
+
+.card-summary p{
+    max-width: 350px;
+    font-size: 15px;
+    line-height: 170%;
+    color: rgb(121, 121, 121);
+}
+
+.blogger-info{
+    display: flex;
+}
+
+.blog-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-details p{
+    margin: 0%;
+}
+
+.blogger-info img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.blog-timing{
+    display: flex;
+}
+
+.blog-timing p{
+    margin-right: 5px;
 }
