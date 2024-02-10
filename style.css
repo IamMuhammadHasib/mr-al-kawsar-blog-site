@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+body{
+    padding: 0 5%;
+}
+
+.page-grid-container{
+    display: grid;
+    gap: 80px;
+}
+
+.posts-grid-container{
+    display: flex;
+}
+
+.contents-grid-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-item{
+    background-color: aqua;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 1% 2%; */
+    align-items: center;
+}
+
+.brand-logo{
+    width: 150px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px 30px;
+    font-weight: 800;
+    font-size: large;
+}
+
+button{
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: large;
+}
+
+header button{
+    margin-left: 20px;
+}
+
+
+.hero-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-section div{
+    margin-right: 200px;
+}
+
+.title .heading{
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.title .sub-heading{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.title button{
+    margin-right: 30px;
+}
+
+.title .cta{
+    background-color: black;
+    color: white;
+}
+
+.profile img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.post-cards{
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post-cards img{
+    width: 300px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 10px;
+}
