@@ -105,6 +105,9 @@ header button{
     filter: drop-shadow(30px 20px black)
 }
 
+a:hover{
+    text-decoration: underline;
+}
 
 .post-cards{
     display: flex;
