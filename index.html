@@ -1,165 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <script
+      src="https://kit.fontawesome.com/6d342729fb.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="page-grid-container">
-        <div class="grid-item">
-            <header>
-                <img class="brand-logo" src="assets/logo-light.svg" alt="brand-logo">
-                <nav>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About me</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </nav>
-                <a href=""><button>Light</button></a>
-            </header>
+      <div class="grid-item">
+        <header>
+          <img
+            class="brand-logo"
+            src="assets/logo-light.svg"
+            alt="brand-logo"
+          />
+          <nav>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About me</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+          <a href=""><button>Light</button></a>
+        </header>
+      </div>
+      <div class="grid-item hero-section">
+        <div class="title">
+          <p class="heading">Hi, I'm Mr Al<br />Android Developer</p>
+          <p class="sub-heading">Specialized in Kotlin and Compose</p>
+          <button class="cta">Contact Me</button>
+          <button>About Me</button>
         </div>
-        <div class="grid-item hero-section">
-            <div class="title">
-                <p class="heading">Hi, I'm Mr Al<br>Android Developer</p>
-                <p class="sub-heading">Specialized in Kotlin and Compose</p>
-                <button class="cta">Contact Me</button>
-                <button>About Me</button>
-            </div>
-            <div class="profile">
-                <img class="profile-image"
-                    src="assets/portrait-funny-guy-cartoon-young-people-profile-vector-15696442.jpg"
-                    alt="profile-picture">
-            </div>
+        <div class="profile">
+          <img
+            class="profile-image"
+            src="assets/portrait-funny-guy-cartoon-young-people-profile-vector-15696442.jpg"
+            alt="profile-picture"
+          />
         </div>
-        <div class="posts-grid-container">
-            <div class="contents-container">
-                <div class="post-cards">
-                    <img src="assets/AndroidWinter_BlogIllustration_2096x1182.jpg" alt="blog-01">
-                    <div class="card-summary">
-                        <button class="tag-button">Android Basic</button>
-                        <a href="">Building microservices with Dropwizard, MongoDB & Docker</a>
-                        <p>This NoSQL database oriented to documents (by documents like JSON) combines some of the
-                            features from relational databases, easy to use and the multi-</p>
+      </div>
+      <div class="posts-grid-container">
+        <div class="contents-container">
+          <div class="post-cards">
+            <img
+              src="assets/AndroidWinter_BlogIllustration_2096x1182.jpg"
+              alt="blog-01"
+            />
+            <div class="card-summary">
+              <button class="tag-button">Android Basic</button>
+              <a href=""
+                >Building microservices with Dropwizard, MongoDB & Docker</a
+              >
+              <p>
+                This NoSQL database oriented to documents (by documents like
+                JSON) combines some of the features from relational databases,
+                easy to use and the multi-
+              </p>
 
-                        <div class="blogger-info">
-                            <img src="assets/portrait-funny-guy-cartoon-young-people-profile-vector-15696442.jpg"
-                                alt="">
-                            <div class="blog-details">
-                                <p>Mr Al</p>
-                                <div class="blog-timing">
-                                    <p>Jan 28, 2024</p>
-                                    <p>&#8226; 3 min</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              <div class="blogger-info">
+                <img
+                  src="assets/portrait-funny-guy-cartoon-young-people-profile-vector-15696442.jpg"
+                  alt=""
+                />
+                <div class="blog-details">
+                  <p>Mr Al</p>
+                  <div class="blog-timing">
+                    <p>Jan 28, 2024</p>
+                    <p>&#8226; 3 min</p>
+                  </div>
                 </div>
-                <div class="post-cards">
-                    <img src="assets/AndroidWinter_BlogIllustration_2096x1182.jpg" alt="blog-01">
-                    <div class="card-summary">
-                        <button class="tag-button">Android Basic</button>
-                        <a href="">Building microservices with Dropwizard, MongoDB & Docker</a>
-                        <p>This NoSQL database oriented to documents (by documents like JSON) combines some of the
-                            features from relational databases, easy to use and the multi-</p>
-
-                        <div class="blogger-info">
-                            <img src="assets/portrait-funny-guy-cartoon-young-people-profile-vector-15696442.jpg"
-                                alt="">
-                            <div class="blog-details">
-                                <p>Mr Al</p>
-                                <div class="blog-timing">
-                                    <p>Jan 28, 2024</p>
-                                    <p>&#8226; 3 min</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="post-cards">
-                    <img src="assets/AndroidWinter_BlogIllustration_2096x1182.jpg" alt="blog-01">
-                    <div class="card-summary">
-                        <button class="tag-button">Android Basic</button>
-                        <a href="">Building microservices with Dropwizard, MongoDB & Docker</a>
-                        <p>This NoSQL database oriented to documents (by documents like JSON) combines some of the
-                            features from relational databases, easy to use and the multi-</p>
-
-                        <div class="blogger-info">
-                            <img src="assets/portrait-funny-guy-cartoon-young-people-profile-vector-15696442.jpg"
-                                alt="">
-                            <div class="blog-details">
-                                <p>Mr Al</p>
-                                <div class="blog-timing">
-                                    <p>Jan 28, 2024</p>
-                                    <p>&#8226; 3 min</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <div class="contents-container">
-                <div class="side-hier">
-                    <ul class="hier">
+          </div>
+          <div class="post-cards">
+            <img
+              src="assets/AndroidWinter_BlogIllustration_2096x1182.jpg"
+              alt="blog-01"
+            />
+            <div class="card-summary">
+              <button class="tag-button">Android Basic</button>
+              <a href=""
+                >Building microservices with Dropwizard, MongoDB & Docker</a
+              >
+              <p>
+                This NoSQL database oriented to documents (by documents like
+                JSON) combines some of the features from relational databases,
+                easy to use and the multi-
+              </p>
+
+              <div class="blogger-info">
+                <img
+                  src="assets/portrait-funny-guy-cartoon-young-people-profile-vector-15696442.jpg"
+                  alt=""
+                />
+                <div class="blog-details">
+                  <p>Mr Al</p>
+                  <div class="blog-timing">
+                    <p>Jan 28, 2024</p>
+                    <p>&#8226; 3 min</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="post-cards">
+            <img
+              src="assets/AndroidWinter_BlogIllustration_2096x1182.jpg"
+              alt="blog-01"
+            />
+            <div class="card-summary">
+              <button class="tag-button">Android Basic</button>
+              <a href=""
+                >Building microservices with Dropwizard, MongoDB & Docker</a
+              >
+              <p>
+                This NoSQL database oriented to documents (by documents like
+                JSON) combines some of the features from relational databases,
+                easy to use and the multi-
+              </p>
+
+              <div class="blogger-info">
+                <img
+                  src="assets/portrait-funny-guy-cartoon-young-people-profile-vector-15696442.jpg"
+                  alt=""
+                />
+                <div class="blog-details">
+                  <p>Mr Al</p>
+                  <div class="blog-timing">
+                    <p>Jan 28, 2024</p>
+                    <p>&#8226; 3 min</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side-contents">
+          <div class="side-hier">
+            <ul class="hier">
+              <li>
+                <details open>
+                  <summary>Database</summary>
+                  <ul>
+                    <li>MongoDB</li>
+                    <li>
+                      PostgreSQL
+                      <ul>
                         <li>
-                            <details open>
-                                <summary>Database</summary>
-                                <ul>
-                                    <li>MongoDB</li>
-                                    <li>PostgreSQL
-                                        <ul>
-                                            <li>
-                                                <details open>
-                                                    <summary>First Item</summary>
-                                                    <ul>
-                                                        <li>First It</li>
-                                                        <li>First It</li>
-                                                        <li>First It</li>
-                                                    </ul>
-                                                </details>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>MySQL</li>
-                                </ul>
-                            </details>
+                          <details open>
+                            <summary>First Item</summary>
+                            <ul>
+                              <li>First It</li>
+                              <li>First It</li>
+                              <li>First It</li>
+                            </ul>
+                          </details>
                         </li>
+                      </ul>
+                    </li>
+                    <li>MySQL</li>
+                  </ul>
+                </details>
+              </li>
 
+              <li>
+                <details open>
+                  <summary>Second Item</summary>
+                  <ul>
+                    <li>First It</li>
+                    <li>
+                      First It
+                      <ul>
                         <li>
-                            <details open>
-                                <summary>Second Item</summary>
-                                <ul>
-                                    <li>First It</li>
-                                    <li>First It
-                                        <ul>
-                                            <li>
-                                                <details>
-                                                    <summary>First Item</summary>
-                                                    <ul>
-                                                        <li>First It</li>
-                                                        <li>First It</li>
-                                                        <li>First It</li>
-                                                    </ul>
-                                                </details>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>First It</li>
-                                </ul>
-                            </details>
+                          <details>
+                            <summary>First Item</summary>
+                            <ul>
+                              <li>
+                                <details open>
+                                  <summary>First It</summary>
+                                  <ul>
+                                    <li>Muhammad</li>
+                                    <li>Hasib</li>
+                                  </ul>
+                                </details>
+                              </li>
+                              <li>First It</li>
+                              <li>First It</li>
+                            </ul>
+                          </details>
                         </li>
-                    </ul>
-                </div>
-                <div class="side">content 2</div>
-                <div class="side">content 3</div>
+                      </ul>
+                    </li>
+                    <li>First It</li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </div>
+          <div class="side-contacts">
+            <p>
+              I am a software Engineer experienced in Mobile Application
+              Development on Android. I have a good experience in android modern
+              toolkit Jetpack Compose, Dagger-Hilt, Retrofit, MLKit,
+              MVVM/MVC/Clean Architecture, Room/MySQL Database.<br /><br />
+              I have good proficiency in conducting comprehensive research
+              experiences focused on training, testing, optimizing AI models and
+              deploying on mobile platforms, ensuring smooth integration and
+              top-notch performance.
+            </p>
+            <div class="contact-links">
+              <i class="fa-brands fa-linkedin fa-2x"></i>
+              <i class="fa-brands fa-github fa-2x"></i>
             </div>
+          </div>
         </div>
-        <div class="grid-item">4</div>
+      </div>
     </div>
-</body>
-
+    <div class="footer">Copyright &copy; 2024 Mr Al</div>
+  </body>
 </html>
