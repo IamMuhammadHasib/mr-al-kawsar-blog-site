@@ -3,10 +3,12 @@
 * {
   font-family: Roboto;
   text-decoration: none;
+  /* overflow-x: hidden; */
 }
 
 body {
   margin: 0 0;
+  overflow-x: hidden;
 }
 
 .page-grid-container {
@@ -309,9 +311,9 @@ ul.hier > li::before {
 .footer {
   background-color: aliceblue;
   color: black;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 2rem;
-  padding: 0.2rem 0;
+  padding: 0.2rem 5%;
   width: 100%;
   font-size: 0.8em;
 }
